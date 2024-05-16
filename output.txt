@@ -1,0 +1,3 @@
+The number of trees with Bs and Cr sister is 7230
+The number of trees with Bs and At sister is 749
+The number of trees with Cr and At sister is 1567
