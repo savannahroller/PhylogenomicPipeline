@@ -14,9 +14,6 @@ output = "/scratch/rollers/week06/phylo_out/"
 #create a list of all input files 
 inputfiles = glob.glob(input+"*fasta")
 
-#TESTING: create a shortened list of input files 
-inputfiles = inputfiles[0:3]
-
 ### Step 1: align sequences using mafft 
 for file in inputfiles: 
     new_file_path = file.replace(input, output)
